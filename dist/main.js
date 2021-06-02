@@ -12,7 +12,7 @@ async function bootstrap() {
         .setTitle('ImmobPorto API description')
         .setDescription('This API is the first step to build a large system')
         .setVersion('1.0')
-        .addTag('cats')
+        .addTag('Immobilier')
         .build();
     const options = {
         operationIdFactory: (controllerKey, methodKey) => methodKey
